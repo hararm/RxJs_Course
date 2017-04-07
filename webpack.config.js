@@ -1,5 +1,5 @@
 module.exports = {
-    entry: "./main_03",
+    entry: "./main_hot_cold",
     output: { filename: "app.js" },
     module: {
         loaders: [
