@@ -1,14 +1,52 @@
-<html>
-    <head>
-        <title>RxJs</title>
-        <style>
-        </style>
-    </head>
-    <body>
-        <form>
-            <input type="text" id="title" value=""/>
-            <ul id="results"></ul>
-        </form>
-        <script src="app.js"></script>
-    </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Drag Drop</title>
+    <style>
+        .draggable {
+            transition: background 250ms;
+            background: #aaaaaa;
+            width: 30px;
+            height: 30px;
+            position: absolute;
+            cursor: move;
+            border: 5px solid #444;
+            top: 0;
+            left: 0;
+        }
+
+        .draggable.dragging {
+            background: #555;
+            pointer-events: none;
+        }
+
+        .drop-area {
+            transition: background 250ms;
+            padding: 10px;
+            background: #007ACC;
+            margin: 10px 0;
+            color: #ffffff;
+        }
+
+        .drop-area.dropped {
+            background: #FEE200;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="draggable" id="drag"></div>
+    <ul>
+        <li class="drop-area">Drop Area 1</li>
+        <li class="drop-area">Drop Area 2</li>
+        <li class="drop-area">Drop Area 3</li>
+        <li class="drop-area">Drop Area 4</li>
+        <li class="drop-area">Drop Area 5</li>
+        <li class="drop-area">Drop Area 6</li>
+    </ul>
+
+
+    <script src="app.js"></script>
+</body>
 </html>
