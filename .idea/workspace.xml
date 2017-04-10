@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6144c646-d0c5-4c4e-b383-b213b67af00c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main_12.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main_11.ts" afterPath="$PROJECT_DIR$/main_11.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webpack.config.js" afterPath="$PROJECT_DIR$/webpack.config.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -353,7 +350,7 @@
       <workItem from="1491337610132" duration="27518000" />
       <workItem from="1491569944661" duration="1276000" />
       <workItem from="1491576848052" duration="1241000" />
-      <workItem from="1491579361861" duration="27070000" />
+      <workItem from="1491579361861" duration="27082000" />
     </task>
     <task id="LOCAL-00001" summary="new">
       <created>1491512027924</created>
@@ -383,11 +380,18 @@
       <option name="project" value="LOCAL" />
       <updated>1491845454966</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="new">
+      <created>1491849758238</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1491849758238</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57105000" />
+    <option name="totallyTimeSpent" value="57117000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
