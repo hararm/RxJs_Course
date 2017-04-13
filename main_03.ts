@@ -21,7 +21,7 @@ setTimeout(()=> {
     intervalSubject$.subscribe(createSubscriber("LOOK AT ME!"));
 })*/
 
-/*const currentUser$ = new Rx.BehaviorSubject({ isLoggedIn: false });
+const currentUser$ = new Rx.BehaviorSubject({ isLoggedIn: false });
 const isLoggedIn$ = currentUser$.map((u: any) =>u.isLoggedIn);
 isLoggedIn$.subscribe(createSubscriber("isLoggedIn"));
 setTimeout(() => {
@@ -29,7 +29,7 @@ setTimeout(() => {
 }, 3000);
 setTimeout(() => {
     isLoggedIn$.subscribe(createSubscriber("delayed"));
-},1500);*/
+},1500);
 
 /*const replay$ = new Rx.ReplaySubject(3);
  replay$.next(1);
@@ -45,15 +45,16 @@ setTimeout(() => {
 
  replay$.next(6);*/
 
-const apiCalls$ = new Rx.AsyncSubject();
+/*const apiCalls$ = new Rx.AsyncSubject();
 apiCalls$.next(1);
 
 apiCalls$.subscribe(createSubscriber("one"));
 apiCalls$.next(2);
+apiCalls$.next(3);
 apiCalls$.complete();
 
 setTimeout(()=> {
     apiCalls$.subscribe(createSubscriber("two"));
-})
+},200);*/
 
 
